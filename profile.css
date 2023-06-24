@@ -1,0 +1,60 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: #e0e0e0;
+    font-family: 'Roboto', sans-serif;
+    ;
+}
+
+
+
+
+
+.main-container {
+    height: 100vh;
+
+}
+
+.nav-container {
+    height: 7vh;
+    border-bottom: 2px solid #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-item {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+
+}
+
+.signup-profile {
+    display: flex;
+}
+
+.body-container {
+    height: 93vh;
+    display: flex;
+    flex-direction: column;
+
+    padding: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.logout-btn {
+    margin-top: 30px;
+    padding: 10px;
+    width: 150px;
+    font-size: 18px;
+}
+
+.person-info {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 32px;
+}

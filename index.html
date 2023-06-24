@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F3 Contest-2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body onload="onload()">
+    <!-- navbar -->
+    <div class="main-container">
+        <div class="nav-container">
+            <div class="header nav-item">Header</div>
+            <div class="signup-profile">
+                <div class="signup nav-item">Signup</div>
+                <div class="profile nav-item">Profile</div>
+            </div>
+            
+        </div>
+
+        <!-- bottom part -->
+        <div class="body-container">
+           
+            <form class="info">
+                <div class="form-heading">Signup</div>
+                <label for="name">Full Name</label>
+                <input type="text" name="name" id="name" class="full-name" required>
+
+                <label for="email">Email</label>
+                <input type="email" class="email" required>
+
+                <label for="password">Password</label>
+                <input type="password" class="password" required>
+
+                <label for="password">Confirm Password</label>
+                <input type="password" class="confirm-password" required>
+
+                <div class="message">
+                    
+                </div>
+
+                <button type="submit" class="signup-btn" >Signup</button>
+            </form>
+            <!-- <form >
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <input type="submit">
+              </form> -->
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
